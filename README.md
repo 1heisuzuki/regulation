@@ -2,6 +2,7 @@
 @1heisuzuki がプロジェクトフォルダの階層構造や命名をする時に守っていきたい規則メモ
 
 # 動画プロジェクト
+## ディレクトリ階層
 ```
 <project-name>
 ├── docs # 企画書・コンテなどの書類系
@@ -45,6 +46,32 @@
 │   │      :
 │   └── <project-name>_revN_<sizeH>_<format>.<ext>
 └── final   # 完パケ素材（案件終了後にout-masterからコピー）
+```
+
+## Premiere Pro Bin 階層
+```
+├── comp    # After Effects のcompファイル
+├── src-ph  # プレースホルダ用素材（最終盤を書き出す前に移動して誤爆防止）
+├── work    # 素材編集データ（バージョンはファイル名_revNで管理）
+│   ├── img
+│   │   ├── logo
+│   │   ├── illust
+│   │   └── photo
+│   ├── sound
+│   │   ├── bgm
+│   │   ├── se
+│   │   └── voice
+│   └── guide
+├── mov　# 動画撮影データ
+│   ├── YYYYMMDD_<camera-name>
+│   │      :
+│   │      :
+│   ├── YYYYMMDD_<camera-name>
+│   └── YYYYMMDD_<camera-name>
+├── audio-master    # 音声マスタリングデータ
+├── out-mediate     # 動画中間ファイル
+├── sequence-master # マスターシーケンス
+└── sequence-sub    # サブシーケンス
 ```
 
 ## 参考資料
