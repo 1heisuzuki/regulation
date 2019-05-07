@@ -46,5 +46,8 @@
 - プロジェクトフォルダの整理 | 麦 : Baku https://baku89.com/video-prod/structure-of-working-directory
 - 【Premiere Pro】プロジェクトフォルダ整理術 | Vook(ヴック) https://vook.vc/n/662
 
+# 研究プロジェクト
+WIP
+
 # Future Work
 - 階層が生成できるshコマンドとか作りたい
