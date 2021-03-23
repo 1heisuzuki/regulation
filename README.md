@@ -32,19 +32,19 @@
 │   │   ├── se
 │   │   └── voice
 │   └── guide
-├── mov　# 動画撮影データ
+├── capture　# 動画撮影データ
 │   ├── YYYYMMDD_<camera-name>
 │   │      :
 │   │      :
 │   ├── YYYYMMDD_<camera-name>
 │   └── YYYYMMDD_<camera-name>
 ├── audio-master  # 音声マスタリングデータ
-├── out-mediate   # 動画中間ファイル
-├── out-master    # 動画出力用
-│   ├── <project-name>_revN_<sizeH>_<format>.<ext>
+├── output-mediate   # 動画中間ファイル
+├── output-master    # 動画出力用
+│   ├── <project-name>_v<N>_<sizeH>_<format>.<ext>  #sizeとformatは必要に応じて記載。記載しない場合もある
 │   │      :
 │   │      :
-│   └── <project-name>_revN_<sizeH>_<format>.<ext>
+│   └── <project-name>_v<N>_<sizeH>_<format>.<ext>  #sizeとformatは必要に応じて記載。記載しない場合もある
 └── final   # 完パケ素材（案件終了後にout-masterからコピー）
 ```
 
